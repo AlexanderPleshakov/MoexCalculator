@@ -11,6 +11,7 @@
 		167AF6622C189DF8007FEA49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167AF6612C189DF8007FEA49 /* ContentView.swift */; };
 		167AF6642C189DFB007FEA49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167AF6632C189DFB007FEA49 /* Assets.xcassets */; };
 		167AF6672C189DFB007FEA49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167AF6662C189DFB007FEA49 /* Preview Assets.xcassets */; };
+		167AF66E2C18A8AC007FEA49 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167AF66D2C18A8AC007FEA49 /* Currency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		167AF6612C189DF8007FEA49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		167AF6632C189DFB007FEA49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		167AF6662C189DFB007FEA49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		167AF66D2C18A8AC007FEA49 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				167AF6612C189DF8007FEA49 /* ContentView.swift */,
 				167AF6632C189DFB007FEA49 /* Assets.xcassets */,
 				167AF6652C189DFB007FEA49 /* Preview Content */,
+				167AF66D2C18A8AC007FEA49 /* Currency.swift */,
 			);
 			path = MoexCalculator;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				167AF66E2C18A8AC007FEA49 /* Currency.swift in Sources */,
 				167AF6622C189DF8007FEA49 /* ContentView.swift in Sources */,
 				167AF6602C189DF8007FEA49 /* MoexCalculatorApp.swift in Sources */,
 			);
