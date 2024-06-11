@@ -8,23 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		167AF6602C189DF8007FEA49 /* MoexCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167AF65F2C189DF8007FEA49 /* MoexCalculatorApp.swift */; };
-		167AF6622C189DF8007FEA49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167AF6612C189DF8007FEA49 /* ContentView.swift */; };
 		167AF6642C189DFB007FEA49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167AF6632C189DFB007FEA49 /* Assets.xcassets */; };
 		167AF6672C189DFB007FEA49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167AF6662C189DFB007FEA49 /* Preview Assets.xcassets */; };
 		167AF66E2C18A8AC007FEA49 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167AF66D2C18A8AC007FEA49 /* Currency.swift */; };
 		167AF6702C18AB11007FEA49 /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167AF66F2C18AB11007FEA49 /* CalculatorModel.swift */; };
 		167AF6722C190411007FEA49 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167AF6712C190411007FEA49 /* CalculatorViewModel.swift */; };
+		167AF6742C190650007FEA49 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167AF6732C190650007FEA49 /* CalculatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		167AF65C2C189DF8007FEA49 /* MoexCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoexCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		167AF65F2C189DF8007FEA49 /* MoexCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoexCalculatorApp.swift; sourceTree = "<group>"; };
-		167AF6612C189DF8007FEA49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		167AF6632C189DFB007FEA49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		167AF6662C189DFB007FEA49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		167AF66D2C18A8AC007FEA49 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		167AF66F2C18AB11007FEA49 /* CalculatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorModel.swift; sourceTree = "<group>"; };
 		167AF6712C190411007FEA49 /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		167AF6732C190650007FEA49 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				167AF65F2C189DF8007FEA49 /* MoexCalculatorApp.swift */,
-				167AF6612C189DF8007FEA49 /* ContentView.swift */,
 				167AF6632C189DFB007FEA49 /* Assets.xcassets */,
 				167AF6652C189DFB007FEA49 /* Preview Content */,
 				167AF66D2C18A8AC007FEA49 /* Currency.swift */,
 				167AF66F2C18AB11007FEA49 /* CalculatorModel.swift */,
 				167AF6712C190411007FEA49 /* CalculatorViewModel.swift */,
+				167AF6732C190650007FEA49 /* CalculatorView.swift */,
 			);
 			path = MoexCalculator;
 			sourceTree = "<group>";
@@ -147,7 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				167AF66E2C18A8AC007FEA49 /* Currency.swift in Sources */,
-				167AF6622C189DF8007FEA49 /* ContentView.swift in Sources */,
+				167AF6742C190650007FEA49 /* CalculatorView.swift in Sources */,
 				167AF6602C189DF8007FEA49 /* MoexCalculatorApp.swift in Sources */,
 				167AF6702C18AB11007FEA49 /* CalculatorModel.swift in Sources */,
 				167AF6722C190411007FEA49 /* CalculatorViewModel.swift in Sources */,
