@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CalculatorView: View {
-    @ObservedObject var viewModel: CalculatorViewModel
+    @EnvironmentObject var viewModel: CalculatorViewModel
     @State var pickerIsPresented = false
     
     var body: some View {
@@ -70,7 +70,8 @@ struct CalculatorView: View {
 }
 
 #Preview {
-    CalculatorView(viewModel: CalculatorViewModel())
+    CalculatorView()
+        .environmentObject(CalculatorViewModel())
 }
 
 extension View {

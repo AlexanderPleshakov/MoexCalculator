@@ -16,6 +16,7 @@
 		167AF6742C190650007FEA49 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167AF6732C190650007FEA49 /* CalculatorView.swift */; };
 		167AF6762C19B1A8007FEA49 /* CurrencyInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167AF6752C19B1A8007FEA49 /* CurrencyInputView.swift */; };
 		167AF67B2C19C4F6007FEA49 /* CurrencyPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167AF67A2C19C4F6007FEA49 /* CurrencyPickerView.swift */; };
+		167AF67D2C19D217007FEA49 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167AF67C2C19D217007FEA49 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		167AF6732C190650007FEA49 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
 		167AF6752C19B1A8007FEA49 /* CurrencyInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyInputView.swift; sourceTree = "<group>"; };
 		167AF67A2C19C4F6007FEA49 /* CurrencyPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPickerView.swift; sourceTree = "<group>"; };
+		167AF67C2C19D217007FEA49 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				167AF6732C190650007FEA49 /* CalculatorView.swift */,
 				167AF6752C19B1A8007FEA49 /* CurrencyInputView.swift */,
 				167AF67A2C19C4F6007FEA49 /* CurrencyPickerView.swift */,
+				167AF67C2C19D217007FEA49 /* MainView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				167AF66E2C18A8AC007FEA49 /* Currency.swift in Sources */,
+				167AF67D2C19D217007FEA49 /* MainView.swift in Sources */,
 				167AF6742C190650007FEA49 /* CalculatorView.swift in Sources */,
 				167AF6602C189DF8007FEA49 /* MoexCalculatorApp.swift in Sources */,
 				167AF6702C18AB11007FEA49 /* CalculatorModel.swift in Sources */,
