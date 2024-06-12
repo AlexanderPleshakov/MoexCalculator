@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct CurrencyInputView: View {
-    var currency: Currency
-    var amount: Double
-    var calculator: (Double) -> ()
+    let currency: Currency
+    let amount: Double
+    let calculator: (Double) -> ()
+    let tapHandler: () -> Void
     
     var body: some View {
         HStack {
@@ -24,6 +25,7 @@ struct CurrencyInputView: View {
                     .font(.title2)
             }
             .frame(height: 100)
+            .onTapGesture(perform: tapHandler)
             
             let topBinding = Binding<Double>(
                 get: {
@@ -55,5 +57,6 @@ struct CurrencyInputView: View {
 #Preview {
     CurrencyInputView(currency: .RUR,
                       amount: 100,
-                      calculator: { _ in })
+                      calculator: { _ in },
+                      tapHandler: {})
 }
