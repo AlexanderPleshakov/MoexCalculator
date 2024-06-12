@@ -44,6 +44,8 @@
 			isa = PBXGroup;
 			children = (
 				167AF65E2C189DF8007FEA49 /* MoexCalculator */,
+				167AF6632C189DFB007FEA49 /* Assets.xcassets */,
+				167AF6652C189DFB007FEA49 /* Preview Content */,
 				167AF65D2C189DF8007FEA49 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,13 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				167AF65F2C189DF8007FEA49 /* MoexCalculatorApp.swift */,
-				167AF6632C189DFB007FEA49 /* Assets.xcassets */,
-				167AF6652C189DFB007FEA49 /* Preview Content */,
-				167AF66D2C18A8AC007FEA49 /* Currency.swift */,
-				167AF66F2C18AB11007FEA49 /* CalculatorModel.swift */,
-				167AF6712C190411007FEA49 /* CalculatorViewModel.swift */,
-				167AF6732C190650007FEA49 /* CalculatorView.swift */,
-				167AF6752C19B1A8007FEA49 /* CurrencyInputView.swift */,
+				167AF6792C19B425007FEA49 /* Models */,
+				167AF6782C19B41B007FEA49 /* ViewModel */,
+				167AF6772C19B3F1007FEA49 /* Views */,
 			);
 			path = MoexCalculator;
 			sourceTree = "<group>";
@@ -77,6 +75,32 @@
 				167AF6662C189DFB007FEA49 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		167AF6772C19B3F1007FEA49 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				167AF6732C190650007FEA49 /* CalculatorView.swift */,
+				167AF6752C19B1A8007FEA49 /* CurrencyInputView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		167AF6782C19B41B007FEA49 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				167AF6712C190411007FEA49 /* CalculatorViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		167AF6792C19B425007FEA49 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				167AF66D2C18A8AC007FEA49 /* Currency.swift */,
+				167AF66F2C18AB11007FEA49 /* CalculatorModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
