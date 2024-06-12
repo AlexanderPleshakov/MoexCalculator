@@ -14,6 +14,7 @@
 		167AF6702C18AB11007FEA49 /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167AF66F2C18AB11007FEA49 /* CalculatorModel.swift */; };
 		167AF6722C190411007FEA49 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167AF6712C190411007FEA49 /* CalculatorViewModel.swift */; };
 		167AF6742C190650007FEA49 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167AF6732C190650007FEA49 /* CalculatorView.swift */; };
+		167AF6762C19B1A8007FEA49 /* CurrencyInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167AF6752C19B1A8007FEA49 /* CurrencyInputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		167AF66F2C18AB11007FEA49 /* CalculatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorModel.swift; sourceTree = "<group>"; };
 		167AF6712C190411007FEA49 /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
 		167AF6732C190650007FEA49 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		167AF6752C19B1A8007FEA49 /* CurrencyInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyInputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				167AF66F2C18AB11007FEA49 /* CalculatorModel.swift */,
 				167AF6712C190411007FEA49 /* CalculatorViewModel.swift */,
 				167AF6732C190650007FEA49 /* CalculatorView.swift */,
+				167AF6752C19B1A8007FEA49 /* CurrencyInputView.swift */,
 			);
 			path = MoexCalculator;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				167AF6742C190650007FEA49 /* CalculatorView.swift in Sources */,
 				167AF6602C189DF8007FEA49 /* MoexCalculatorApp.swift in Sources */,
 				167AF6702C18AB11007FEA49 /* CalculatorModel.swift in Sources */,
+				167AF6762C19B1A8007FEA49 /* CurrencyInputView.swift in Sources */,
 				167AF6722C190411007FEA49 /* CalculatorViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
